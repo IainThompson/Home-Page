@@ -70,3 +70,13 @@ body {
     font-size: 75px;
     font-weight: bold;
 }
+Under_Construction4 {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: right;
+    color: rgb(245, 107, 107);
+    font-size: 75px;
+    font-weight: bold;
+}
