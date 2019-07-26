@@ -1,0 +1,14 @@
+{
+  "name": "node-v",
+  "version": "1.0.0",
+  "description": "npm-v",
+  "main": "npm install npm@latest -g",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tarball": "0.0.5"
+  }
+}
