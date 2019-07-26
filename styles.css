@@ -44,6 +44,7 @@ html, body {
 
 .billboard_button.primary {
     background-color: #0879E4;
+    text-decoration-line: none;
 }
 
 .billboard_button {
@@ -58,6 +59,7 @@ html, body {
 
 .billboard_button.secondary {
     background-color:#252933;
+    text-decoration-line: none;
 }
 
 .billboard_text {
