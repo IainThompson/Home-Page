@@ -68,6 +68,7 @@ img {
     filter: saturate(0.75);
 }
 
+
 .billboard_button.primary {
     background-color: #0879E4;
     text-decoration-line: none;
@@ -260,3 +261,40 @@ img {
    color: #8A94A7;
 }
 
+.social_links a {
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+
+.social_links svg {
+    position: relative;
+}
+
+.fb:hover {
+    background: white;
+    border-radius: 50%;
+}
+
+.linkedin:hover {
+    background: white;
+    border-radius: 5px;
+}
+
+.mail:hover:before {
+    background: white;
+    border-radius: 5px;
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 22px;
+    width: 38%;
+    z-index: 0;
+    right: 0;
+}
+
+.mail {
+    position: relative;
+
+}
