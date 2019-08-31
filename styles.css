@@ -4,26 +4,19 @@ html, body {
     font-family:  Helvetica, Arial, sans-serif;
 }
 
-
+body {
+    background:#020A15;
+    color: #ffffff;
+}
 img {
     max-width: 100%; 
 }
 .billboard {
     height: 100vh;
-    background-color: #1E2229;
-    color: #ffffff;
-    background-image: url(New\ Background.jpg);
-    background-size: cover;
+    
+    background-image: url(background4.png);
+    background-size: 100% 100%;
     background-position-y: center;
-}
-
-.billboard:before {
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    opacity: 0.75;
 }
 
 .billboard_wrapper {
@@ -66,7 +59,7 @@ img {
 .self-imposed-misery img {
     position: relative;
     top: -50px;
-    filter: saturate(0.75);
+    filter: brightness(80%);
 }
 
 
@@ -333,4 +326,61 @@ img {
 .mail {
     position: relative;
 
+}
+
+.explanation {
+    height: 100vh;
+    width: 55%;
+    margin: auto;
+    
+}
+
+.information {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.information li {
+    padding-bottom: 30px;
+    line-height: 1.2;
+}
+
+.back_button {
+    background-color:#252933;
+    text-decoration-line: none;
+    border: none;
+    border-radius: 2px;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.back_button:hover {
+   background-color: #0879E4;
+   
+}
+
+.pain_in_my_arse {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.back_button2 {
+    position:relative;
+    margin-left: 15px;
+    display: inline-block;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+}
+
+.back_button:hover svg {
+    
+    background-color: white;
+    fill: black;
 }
