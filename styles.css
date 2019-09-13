@@ -384,3 +384,10 @@ img {
     background-color: white;
     fill: black;
 }
+
+.location+ .location {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    text-align: justify;
